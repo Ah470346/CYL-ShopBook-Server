@@ -11,7 +11,7 @@ var booksSchema = new mongoose.Schema({
 		pages:String,
 		dimensions:String,
 		language:String,
-		type:String
+		// type:String
 	},
 	categories:[String],
 	author:[String],
