@@ -18,7 +18,8 @@
     "express-jwt": "^6.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.9",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "universal-cookie-express": "^4.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

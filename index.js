@@ -12,8 +12,8 @@ require('dotenv').config();
 var dir = path.join(__dirname, 'public');
 
 const app = express();
-const port = 8080;
-mongoose.connect(process.env.URL_MONGO, {useNewUrlParser: true,useUnifiedTopology: true});
+const port = 8000;
+mongoose.connect(process.env.URL_MONGO, {useNewUrlParser: true,useUnifiedTopology: true,useFindAndModify:false});
 
 const apiBookRouter = require('./api/routers/books.router.js');
 const apiUserRouter = require('./api/routers/users.router.js');
