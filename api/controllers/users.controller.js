@@ -6,7 +6,7 @@ module.exports.index = async function(req , res){
 	})
 };
 
-module.exports.create = async function(req , res){
-	var user = await User.create(req.body);
-	res.json(user);
-};
+// module.exports.create = async function(req , res){
+// 	var user = await User.create(req.body);
+// 	res.json(user);
+// };
